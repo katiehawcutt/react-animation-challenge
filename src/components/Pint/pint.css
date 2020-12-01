@@ -1,0 +1,10 @@
+.beer-container {
+  height: 60px;
+  width: 60px;
+  background-color: goldenrod;
+  border: white 4px solid;
+  clip-path: polygon(15% 0, 85% 0, 70% 100%, 30% 100%);
+  position: absolute;
+  top: 60vh;
+  left: 70vw;
+}

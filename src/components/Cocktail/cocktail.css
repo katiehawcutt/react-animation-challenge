@@ -13,8 +13,8 @@
 .glass-container {
   height: 350px;
   width: 300px;
-  bottom: 50px;
-  left: 500px;
+  bottom: 10vh;
+  left: 35vw;
   position: absolute;
 }
 .glass-top {
@@ -29,7 +29,8 @@
   position: absolute;
   height: 200px;
   width: 250px;
-  background-color: #ffecb3;
+  background-color: lightblue;
+  border: 10px solid white;
   clip-path: polygon(100% 0, 0 0, 50% 60%);
   border-radius: 5px;
   left: 50%;
