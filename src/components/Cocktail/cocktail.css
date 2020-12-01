@@ -1,0 +1,80 @@
+:root {
+  --white: #daf7a6;
+  --pink: #cd5c5c;
+}
+/* body {
+  background-color: #030332;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+} */
+.glass-container {
+  height: 350px;
+  width: 300px;
+  bottom: 50px;
+  left: 500px;
+  position: absolute;
+}
+.glass-top {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  background-image: radial-gradient(var(--pink), var(--white));
+  clip-path: polygon(100% 0, 0 0, 50% 60%);
+  border-radius: 5px;
+}
+.cocktail {
+  position: absolute;
+  height: 200px;
+  width: 250px;
+  background-color: #ffecb3;
+  clip-path: polygon(100% 0, 0 0, 50% 60%);
+  border-radius: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  top: 4%;
+}
+.glass-stem {
+  position: absolute;
+  height: 150px;
+  width: 14px;
+  background-image: linear-gradient(var(--pink), var(--white));
+  left: 50%;
+  transform: translate(-50%);
+  top: 40%;
+  z-index: 10;
+  border-radius: 5px;
+}
+.glass-bottom {
+  position: absolute;
+  height: 100px;
+  width: 180px;
+  background-image: radial-gradient(var(--white), var(--pink));
+  clip-path: ellipse(50% 27% at 50% 68%);
+  left: 50%;
+  transform: translate(-50%);
+  top: 65%;
+}
+
+.cherry {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-image: linear-gradient(#cc0066, #cc0000);
+  border-radius: 100%;
+  left: 70%;
+  top: -12%;
+  z-index: 10;
+}
+.cherry-stick {
+  position: absolute;
+  height: 170px;
+  width: 3px;
+  background-color: yellow;
+  border-radius: 10px;
+  left: 75%;
+  top: -25%;
+  transform: rotate(25deg);
+}

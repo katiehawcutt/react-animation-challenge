@@ -1,7 +1,13 @@
-import './App.css';
+import "./App.css";
+import React from "react";
+import Cocktail from "../Cocktail/index";
 
 function App() {
-  return <div className="App">My Favourite Place</div>;
+  return (
+    <div>
+      <Cocktail />
+    </div>
+  );
 }
 
 export default App;
