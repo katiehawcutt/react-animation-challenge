@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./face.css";
 import { motion } from "framer-motion";
+
 import Tao from "./tao.png";
 import Jon from "./jon.png";
 import Stefan from "./stefan.png";

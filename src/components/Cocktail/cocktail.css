@@ -2,14 +2,7 @@
   --white: #daf7a6;
   --pink: #cd5c5c;
 }
-/* body {
-  background-color: #030332;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-} */
+
 .glass-container {
   height: 350px;
   width: 300px;

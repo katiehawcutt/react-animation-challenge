@@ -1,17 +1,16 @@
 # React Animation Challenge
 
-## Animate a place you love:
+![Our Animated Pub Screenshot](./public/Images/thepubScreenshot.PNG)
 
-- Choose a place in the world you love, perhaps somewhere you can't visit at the moment.
-- You're working in pairs, so either decide a place together OR flip a coin to decide.
-- Use a react animation library to build and animate a website that celebrates your chosen place.
+##### School Of Code Bootcamp
 
-## Animation libraries:`
+###### November 2020
 
-- If you are in an odd numbered breakout room use: https://www.framer.com/api/motion/
-- If you are in an even numbered breakout room use: https://www.react-spring.io/
+_On this particular afternoon we were exploring some React Animation libraries for the first time. We were given the challenge of animating a place we love and perhaps somewhere we couldn't visit at the moment, so of course we chose the pub!_
 
-## Show your project to another pair:
+### Main Learning Points:
 
-- At the end of the day we'll share our projects in groups of four.
-- Discuss the differences, similarities and quirks of the two animation libraries.
+- an animation and gesture library called [Motion API](https://www.framer.com/api/motion/)
+- we found the docs really useful and clear and were able to implement some basic animation on our webpage combining our new found knowledge with some CSS drawings we did (a beer and cocktail!)
+- the benefits of React animation libraries over other CSS animations are that they help keep your code maintainable and scaleable, and they provide a more integrated way to control animations in your React components
+- in general, you might want to use CSS animations for simpler "one-shot" transitions, like toggling UI element states but it is probably easier and better to use use JavaScript animations when you want to have advanced effects like bouncing, stop, pause, rewind, or slow down
