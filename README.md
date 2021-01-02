@@ -2,7 +2,7 @@
 
 ![Our Animated Pub Screenshot](./public/Images/thepubScreenshot.PNG)
 
-##### School Of Code Bootcamp
+#### School Of Code Bootcamp
 
 ###### November 2020
 
